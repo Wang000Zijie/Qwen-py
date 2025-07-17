@@ -53,7 +53,7 @@
           max_tokens: 512
         };
 
-        const res = await fetch('/api/ask', {
+        const res = await fetch('https://deepseek-rho-nine.vercel.app/api/ask', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(payload)
